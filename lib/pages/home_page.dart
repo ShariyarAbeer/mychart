@@ -10,12 +10,17 @@ class HomePage extends StatelessWidget {
         body: Padding(
           padding: const EdgeInsets.all(8),
           child: Center(
-            child: Column(
+            child: ListView(
               children: [
-                BarChartPage(),
-                Container(
-                  child: Text("hello 2nd"),
-                )
+                Column(
+                  children: [
+                    BarChartPage(),
+                    BarChartPage(),
+                    Container(
+                      child: Text("hello 2nd"),
+                    )
+                  ],
+                ),
               ],
             ),
           ),
