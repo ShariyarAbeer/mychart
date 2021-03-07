@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mychart/pages/bar_chart_page.dart';
+import 'package:mychart/widget/user_info.dart';
 
 import '../main.dart';
 
@@ -16,9 +17,13 @@ class HomePage extends StatelessWidget {
                   children: [
                     BarChartPage(),
                     BarChartPage(),
-                    Container(
-                      child: Text("hello 2nd"),
-                    )
+                    UserInfo(),
+                    UserInfo(),
+                    UserInfo(),
+                    UserInfo(),
+                    // Container(
+                    //   child: Text("hello 2nd"),
+                    // )
                   ],
                 ),
               ],
