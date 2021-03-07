@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../widget/bar_chart_widget.dart';
 
 class BarChartPage extends StatelessWidget {
   @override
@@ -12,10 +13,7 @@ class BarChartPage extends StatelessWidget {
           padding: const EdgeInsets.only(top: 16),
           child: Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text(
-              "Hello from Bar Chart Page",
-              style: TextStyle(color: Colors.white),
-            ),
+            child: BarChartWidget(),
           ),
         ),
       );

@@ -14,7 +14,7 @@ class BarData {
     Data(
       name: 'Tue',
       id: 1,
-      y: -12,
+      y: 12,
       color: Color(0xffff4d94),
     ),
     Data(
@@ -32,13 +32,13 @@ class BarData {
     Data(
       name: 'Fri',
       id: 4,
-      y: -5,
+      y: 5,
       color: Color(0xff2bdb90),
     ),
     Data(
       name: 'Sat',
       id: 5,
-      y: -17,
+      y: 17,
       color: Color(0xffffdd80),
     ),
     Data(
